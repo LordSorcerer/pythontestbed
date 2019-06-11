@@ -1,1 +1,1 @@
-web: gunicorn app:hibabe
+web: gunicorn hibabe:app
