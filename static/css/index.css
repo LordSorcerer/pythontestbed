@@ -1,0 +1,52 @@
+body {
+	background-color:lightgray;
+	text-align: center;
+	width: 800px;
+	height: 600px;
+}
+
+.chatTextInput {
+	background-color:lightgray;
+}
+
+.chatHeader {
+	background-color: darkblue;
+	color: white;
+	width: 75%;
+	display: inline-block;
+	padding: 3px;
+	border-radius: 15px;
+}
+
+.chatDiv {
+	border: 2px solid darkblue;
+	padding: 3px;
+	border-radius: 15px;
+}
+
+.chatTextDiv {
+	width: 800px;
+	height: 300px;
+	padding: 5px;
+	display: block;
+	overflow-y: scroll;
+	position: fixed;
+	border: 1px solid black;
+}
+.chatMessage {
+	text-align: left;
+	display:block;
+	margin: 10px;
+}
+
+.chatText {
+	padding: 3px;
+	font-style: bold;
+}
+.chatDate {
+	border-radius: 15px;
+	border: 1px solid darkblue;
+	padding: 3px;
+	background-color: darkblue;
+	color: white;
+}

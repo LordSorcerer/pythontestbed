@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thousandstorms Web Chat</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/index.css">
+</head>
+<body>
+	<h1 class=chatHeader>Thousandstorms Web Chat</h1>
+	<br>
+	<div>
+		<div>
+			<form action="/sendmessage" method="post">
+				<span>Username</span>
+				<input class='chatTextInput' type="text" name="username" value="">
+				<span>Message</span>
+				<input class='chatTextInput' type="text" name="message" value="">
+    			<input type="submit" value="Submit">
+			</form>
+		</div>
+		<br>
+		<h2 class=chatHeader>Welcome to the Chat!</h2>
+		<div>
+			<div class="chatTextDiv">{{chatText}}<br></div>
+		</div>
+	</div>
+</body>
+</html>
